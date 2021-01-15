@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 2rem;
+    background: linear-gradient(to bottom, #42E2B8, #F9DC5C);
+    height: 100%;
+}
+header {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav {
+    text-align: right;
+}
+ul {
+    list-style: none;
+}
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: #465362;
+}
+li a:hover {
+    color: #ED254E;
+}
+.logo-platzi img {
+    width: 200px;
+}
+
+main {
+    height: 100vh;
+}
+footer {
+    height: auto;
+}
