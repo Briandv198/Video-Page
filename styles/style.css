@@ -5,43 +5,52 @@
 }
 html {
     font-size: 62.5%;
-}
-body {
-    font-size: 2rem;
-    background: linear-gradient(to bottom, #42E2B8, #F9DC5C);
     height: 100%;
 }
-header {
-    height: auto;
+body {
+    width: 100%;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+    color: #f8fdfc;
+    background: linear-gradient(to bottom, #42E2B8, #F9DC5C);
+}
+.container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
-header nav {
+.container img {
+    max-width: 400px;
+}
+.container__menu {
+    height: 40px;
+    margin-top: 15px;
+    margin-right: 30px;
+}
+.container__menu--profile {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.container__menu--profile img {
+    width: 40px;
+    margin-right: 15px;
+}
+.container__menu--nav ul{
+    display: none;
+    list-style: none;
     text-align: right;
 }
-ul {
-    list-style: none;
-}
-li {
-    display: inline-block;
-    margin: 0 10px;
-}
-
-li a {
+.container__menu--nav a {
     text-decoration: none;
-    color: #465362;
+    font-size: 1.6rem;
+    font-weight: normal;
+    line-height: 1.4rem;
+    color: #f8fdfc;
 }
-li a:hover {
+.container__menu--nav a:hover {
+    text-decoration: underline;
     color: #ED254E;
 }
-.logo-platzi img {
-    width: 200px;
-}
-
-main {
-    height: 100vh;
-}
-footer {
-    height: auto;
+.container__menu:hover ul, ul:hover{
+    display: block;
 }
