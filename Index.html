@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://image.flaticon.com/icons/png/512/16/16428.png">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,500;1,700&display=swap"
@@ -12,7 +13,7 @@
 </head>
 
 <body>
-    <header class="container">
+    <header class="header-container">
         <img src="https://raw.githubusercontent.com/platzi/PlatziVideo/feature/react/src/assets/static/logo-platzi-video-BW2.png" alt="">
         <div class="container__menu">
             <div class="container__menu--profile">
@@ -27,6 +28,28 @@
             </nav>
         </div>
     </header>
+    <main class="main-container">
+        <section class="search">
+            <p class="search--p">¿Que te gustaría ver hoy?</p>
+            <div class="search--input" >
+                <input type="text" placeholder="Buscar...">
+            </div>
+        </section>
+        <section class="carousel">
+            <div class="carousel__section">
+                <p>Mi lista</p>
+                <div class="carousel__item"></div>
+                <div class="carousel__item"></div>
+                <div class="carousel__item"></div>
+            </div>
+            <div class="carousel__section">
+                <p>Tendencias</p>
+                <div class="carousel__item"></div>
+                <div class="carousel__item"></div>
+                <div class="carousel__item"></div>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
