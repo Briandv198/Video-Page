@@ -152,6 +152,20 @@ body {
     opacity: 1;
     display: block;
 }
+.movie__info--add-icon, .movie__info--play-icon {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+.movie__info .movie__info--play-icon {
+    background-image: url('https://cutt.ly/EjYXial');
+} 
+.movie__info .movie__info--add-icon {
+    background-image: url('https://cutt.ly/XjYXx0R');
+} 
 .movie__image {
     display: inline-block;
     background-size: cover;
